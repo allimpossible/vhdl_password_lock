@@ -1,0 +1,121 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/passw_lock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock_tb'
+ERROR: [VRFC 10-2942] 'clk_gen' is illegal in an expression [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd:63]
+ERROR: [VRFC 10-3763] type error near 'clk_gen' ; expected type 'std_logic' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd:63]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd:38]
+INFO: [VRFC 10-3070] VHDL file '/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/passw_lock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/passw_lock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/passw_lock_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/passw_lock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'passw_lock'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+ERROR: [VRFC 10-2989] 'see_reg' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:61]
+ERROR: [VRFC 10-3095] actual of formal out port 'see_reg' cannot be an expression [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:61]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:38]
+INFO: [VRFC 10-3070] VHDL file '/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+ERROR: [VRFC 10-3353] formal port 'if_press' has no actual or default value [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:58]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:38]
+INFO: [VRFC 10-3070] VHDL file '/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+ERROR: [VRFC 10-1412] syntax error near ' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:40]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:61]
+ERROR: [VRFC 10-2989] 'passw' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:63]
+ERROR: [VRFC 10-2989] 'see_press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:66]
+ERROR: [VRFC 10-3095] actual of formal out port 'see_press' cannot be an expression [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:66]
+ERROR: [VRFC 10-2989] 'passw' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:78]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:79]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:80]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:81]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:82]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:83]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:84]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:85]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:86]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:87]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:88]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:89]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:90]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:91]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+ERROR: [VRFC 10-1412] syntax error near ' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:40]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:61]
+ERROR: [VRFC 10-2989] 'passw' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:63]
+ERROR: [VRFC 10-2989] 'see_press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:66]
+ERROR: [VRFC 10-3095] actual of formal out port 'see_press' cannot be an expression [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:66]
+ERROR: [VRFC 10-2989] 'passw' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:78]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:79]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:80]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:81]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:82]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:83]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:84]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:85]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:86]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:87]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:88]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:89]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:90]
+ERROR: [VRFC 10-2989] 'press' is not declared [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd:91]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sim_1/new/shift4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+ERROR: [VRFC 10-3801] use <= to assign to signal 'reg' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:73]
+ERROR: [VRFC 10-3801] use <= to assign to signal 'reg' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:75]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:48]
+INFO: [VRFC 10-3070] VHDL file '/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift4'

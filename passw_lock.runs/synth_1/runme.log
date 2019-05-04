@@ -1,0 +1,276 @@
+
+*** Running vivado
+    with args -log shift4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source shift4.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source shift4.tcl -notrace
+Command: synth_design -top shift4 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3042 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1415.984 ; gain = 26.777 ; free physical = 349 ; free virtual = 6524
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'shift4' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:48]
+WARNING: [Synth 8-614] signal 'reg' is read in the process but is not in the sensitivity list [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:71]
+WARNING: [Synth 8-614] signal 'passw' is read in the process but is not in the sensitivity list [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'shift4' (1#1) [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:48]
+WARNING: [Synth 8-3331] design shift4 has unconnected port clk
+WARNING: [Synth 8-3331] design shift4 has unconnected port if_press
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1460.734 ; gain = 71.527 ; free physical = 361 ; free virtual = 6537
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1460.734 ; gain = 71.527 ; free physical = 360 ; free virtual = 6536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1468.738 ; gain = 79.531 ; free physical = 359 ; free virtual = 6535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1476.746 ; gain = 87.539 ; free physical = 351 ; free virtual = 6527
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               28 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module shift4 
+Detailed RTL Component Info : 
++---Registers : 
+	               28 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design shift4 has port result[1] driven by constant 0
+WARNING: [Synth 8-3331] design shift4 has unconnected port clk
+WARNING: [Synth 8-3331] design shift4 has unconnected port if_press
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 203 ; free virtual = 6380
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 203 ; free virtual = 6380
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[3] ) from module (shift4) as it is equivalent to (\reg_reg[7] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[11] ) from module (shift4) as it is equivalent to (\reg_reg[7] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[19] ) from module (shift4) as it is equivalent to (\reg_reg[7] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[27] ) from module (shift4) as it is equivalent to (\reg_reg[7] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[23] ) from module (shift4) as it is equivalent to (\reg_reg[7] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[15] ) from module (shift4) as it is equivalent to (\reg_reg[7] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[2] ) from module (shift4) as it is equivalent to (\reg_reg[6] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[10] ) from module (shift4) as it is equivalent to (\reg_reg[6] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[18] ) from module (shift4) as it is equivalent to (\reg_reg[6] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[26] ) from module (shift4) as it is equivalent to (\reg_reg[6] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[22] ) from module (shift4) as it is equivalent to (\reg_reg[6] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[14] ) from module (shift4) as it is equivalent to (\reg_reg[6] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[1] ) from module (shift4) as it is equivalent to (\reg_reg[5] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[9] ) from module (shift4) as it is equivalent to (\reg_reg[5] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[17] ) from module (shift4) as it is equivalent to (\reg_reg[5] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[25] ) from module (shift4) as it is equivalent to (\reg_reg[5] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[21] ) from module (shift4) as it is equivalent to (\reg_reg[5] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[13] ) from module (shift4) as it is equivalent to (\reg_reg[5] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[0] ) from module (shift4) as it is equivalent to (\reg_reg[4] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[8] ) from module (shift4) as it is equivalent to (\reg_reg[4] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[16] ) from module (shift4) as it is equivalent to (\reg_reg[4] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[24] ) from module (shift4) as it is equivalent to (\reg_reg[4] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[20] ) from module (shift4) as it is equivalent to (\reg_reg[4] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+INFO: [Synth 8-4765] Removing register instance (\reg_reg[12] ) from module (shift4) as it is equivalent to (\reg_reg[4] ) and driving same net [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[3] with 1st driver pin 'press_IBUF[3]_inst/O' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[3] with 2nd driver pin 'reg_reg[7]/Q' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[2] with 1st driver pin 'press_IBUF[2]_inst/O' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[2] with 2nd driver pin 'reg_reg[6]/Q' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[1] with 1st driver pin 'press_IBUF[1]_inst/O' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[1] with 2nd driver pin 'reg_reg[5]/Q' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[0] with 1st driver pin 'press_IBUF[0]_inst/O' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin see_press_OBUF[0] with 2nd driver pin 'reg_reg[4]/Q' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:57]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin result_OBUF[0] with 1st driver pin 'result_reg[0]/Q' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:59]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin result_OBUF[0] with 2nd driver pin 'result0_inferredi_1/CO[2]' [/home/born/data/Xilinx/projects/passw_lock/passw_lock.srcs/sources_1/new/shift4.vhd:79]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        5|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     2|
+|3     |LUT4   |     1|
+|4     |LUT6   |     6|
+|5     |FDRE   |     5|
+|6     |IBUF   |    25|
+|7     |OBUF   |    34|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    74|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 202 ; free virtual = 6379
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 10 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.082 ; gain = 194.875 ; free physical = 204 ; free virtual = 6381
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1584.090 ; gain = 194.875 ; free physical = 204 ; free virtual = 6381
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1669.105 ; gain = 0.000 ; free physical = 125 ; free virtual = 6294
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 7 Warnings, 10 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1669.105 ; gain = 280.121 ; free physical = 181 ; free virtual = 6350
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1669.105 ; gain = 0.000 ; free physical = 181 ; free virtual = 6350
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/born/data/Xilinx/projects/passw_lock/passw_lock.runs/synth_1/shift4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file shift4_utilization_synth.rpt -pb shift4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May  4 20:35:52 2019...
